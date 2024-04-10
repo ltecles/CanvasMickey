@@ -35,11 +35,22 @@ lienzo.ellipse(200, 220, 65, 90, 0, 0, 2 * Math.PI);
 lienzo.fillStyle="#FDE3CA";
 lienzo.fill();
 
-
-
-lienzo.ellipse(300, 220, 65, 90, 0, 0, 2 * Math.PI);
 lienzo.fillStyle="#FDE3CA";
+lienzo.ellipse(300, 220, 65, 90, 0, 0, 2 * Math.PI);
 lienzo.fill();
-/*
-lienzo.moveTo(0,0);
+
+lienzo.beginPath();
+
+lienzo.fillStyle="white";
+lienzo.ellipse(225, 235, 20, 40, 0, 0, 2 * Math.PI);
+lienzo.fill();
+lienzo.lineWidth=3;
+lienzo.stroke();
+
+lienzo.beginPath();
+lienzo.ellipse(280, 235, 20, 40, 0, 0, 2 * Math.PI);
+lienzo.fill();
+lienzo.lineWidth=3;
+lienzo.stroke();
+/*lienzo.moveTo(0,0);
 lienzo.lineTo(450,0)*/
