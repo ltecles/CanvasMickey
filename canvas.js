@@ -87,7 +87,7 @@ lienzo.stroke();
 
 /*Nariz*/
 lienzo.beginPath();
-lienzo.ellipse(250, 302, 30, 17, 0, 0, 2 * Math.PI);
+lienzo.ellipse(250, 312, 40, 25, 0, 0, 2 * Math.PI);
 lienzo.fillStyle="black";
 lienzo.fill();
 
